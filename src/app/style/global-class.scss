@@ -1,0 +1,10 @@
+@import "../style/variables.scss";
+// class background gradient
+.bg-purple {
+    background-image: linear-gradient( #8FBEDC, #5C3F91);
+    color: var(--color-light);
+}
+
+.button-purple {
+    background-image: linear-gradient( to right, #5C3F91, #8FBEDC);
+}

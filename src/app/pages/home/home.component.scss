@@ -1,0 +1,86 @@
+.page {
+    width: 100%;
+    //     height: 100vh;
+    background-color: var(--background-color);
+    .page-navbar {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        backdrop-filter: blur(2px);
+        border-radius: 0px 0px 30px 30px;
+        font-family: OpenSans-SemiBold;
+        //         border: 1px solid red;
+        .page-navbar-logo {}
+        .page-navbar-menu {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            .page-navbar-menu-list {
+                padding: 0px 1em;
+                font-size: 16px;
+                color: var(--color-list-menu);
+            }
+        }
+        .page-navbar-lang {
+            background-color: var(--color-light);
+            width: 130px;
+            height: 30px;
+            padding: 5px;
+            border-radius: 15px;
+            list-style: none;
+            margin: 0px;
+            display: flex;
+            cursor: pointer;
+            .page-navbar-lang-item {
+                width: 60px;
+                height: 20px;
+                text-align: center;
+                font-size: 14px;
+                border-radius: 11px;
+            }
+        }
+    }
+    .home-center {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid blue;
+        .home-center-left {
+            border: 1px solid red;
+        }
+        .home-center-right {
+            border: 1px solid red;
+            .home-center-right-img {
+                width: 700px;
+            }
+        }
+    }
+    .page-footer {
+        color: var(--color-light);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 300px;
+        border: 1px solid red;
+        .page-footer-left {
+            font-family: Montserrat-SemiBold;
+            font-size: 18px;
+            //max-width: 300px;
+            .page-footer-left-logo {
+                margin-bottom: 20px;
+            }
+        }
+        .page-footer-right {
+            list-style: none;
+            margin: 0px;
+            font-family: OpenSans-Regular;
+            font-size: 16px;
+            li {
+                margin-top: 10px;
+            }
+        }
+    }
+}
