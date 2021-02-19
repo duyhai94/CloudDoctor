@@ -9,26 +9,32 @@
 section {
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
 }
 
-// .section1 {
-//     background-image: url('../../../assets/img/about/bg1.svg');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-position: center;
-// }
-// .section2 {
-//     background-image: url('../../../assets/img/about/bg2.svg');
-//     background-repeat: no-repeat;
-//     background-size: contain;
-//     background-position: center;
-// }
-// .section3 {
-//     background-image: url('../../../assets/img/about/bg3.svg');
-//     background-repeat: no-repeat;
-//     background-size: contain;
-//     background-position: center;
-// }
+.section1 {
+    background-image: url('../../../assets/img/about/bg1.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.section2 {
+    background-image: url('../../../assets/img/about/bg2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.section3 {
+    background-image: url('../../../assets/img/about/bg3.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 .about-card {
     display: flex;
     align-items: center;
@@ -44,6 +50,10 @@ section {
         font-family: OpenSans-Regular;
         line-height: 1.5em;
         font-weight: 500;
+    }
+    .about-card-img {
+        max-width: 500px;
+        height: auto;
     }
 }
 
