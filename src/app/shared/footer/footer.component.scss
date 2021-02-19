@@ -1,0 +1,24 @@
+.page-footer {
+    color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    .page-footer-left {
+        font-family: Montserrat-SemiBold;
+        font-size: 18px;
+        //max-width: 300px;
+        .page-footer-left-logo {
+            margin-bottom: 20px;
+        }
+    }
+    .page-footer-right {
+        list-style: none;
+        margin: 0px;
+        font-family: OpenSans-Regular;
+        font-size: 16px;
+        li {
+            margin-top: 10px;
+        }
+    }
+}

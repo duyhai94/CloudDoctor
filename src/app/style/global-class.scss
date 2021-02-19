@@ -8,3 +8,16 @@
 .button-purple {
     background-image: linear-gradient( to right, #5C3F91, #8FBEDC);
 }
+
+.button-getApp {
+    border-radius: 21px;
+    outline: none;
+    border: none;
+    color: var(--color-light);
+    font-size: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, #5C3F91, #8FBEDC);
+    height: 42px;
+    width: 240px;
+    box-shadow: 20px 21px 19px rgba($color: #000000, $alpha: 0.13);
+}

@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CloudDoctor';
+  select: number = 1;
+  activeLink( id : number){
+    this.select = id;
+    console.log(this.select);
+    
+  }
+  
 }
