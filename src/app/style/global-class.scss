@@ -21,3 +21,22 @@
     width: 240px;
     box-shadow: 20px 21px 19px rgba($color: #000000, $alpha: 0.13);
 }
+
+.button-question {
+    border-radius: 21px;
+    outline: none;
+    border: none;
+    color: -webkit-linear-gradient(#5C3F91, #8FBEDC);
+    font-size: 20px;
+    text-align: center;
+    background-color: var(--color-light);
+    height: 42px;
+    width: 240px;
+    box-shadow: 20px 21px 19px rgba($color: #000000, $alpha: 0.13);
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(#5C3F91, #8FBEDC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
