@@ -40,4 +40,25 @@
             border-radius: 11px;
         }
     }
+    .page-navebar-btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-navbar {
+        .page-navbar-lang {
+            display: none;
+        }
+        .page-navbar-menu {
+            display: none;
+        }
+        .page-navebar-btn {
+            display: block;
+        }
+    }
+}
+
+.toggle-menu {
+    max-width: 375px;
 }
