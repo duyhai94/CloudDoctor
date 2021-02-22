@@ -39,6 +39,10 @@
             font-size: 16px !important;
             width: 100%;
             padding-left: 1.5em;
+            .page-footer-left-logo {
+                width: 200px !important;
+                object-fit: cover;
+            }
         }
         .page-footer-right {
             padding-left: 1.5em;
