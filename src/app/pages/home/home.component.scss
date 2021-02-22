@@ -18,6 +18,12 @@
             font-size: 18px;
             margin: 16px 0px;
         }
+        .logo-desktop {
+            display: block;
+        }
+        .logo-mobile {
+            display: none;
+        }
     }
     .home-center-right {
         .home-center-right-img {
@@ -30,5 +36,29 @@
     .home-center {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        .home-center-right {
+            order: 1;
+            padding-bottom: 3em;
+        }
+        .home-center-left {
+            order: 2;
+            .home-center-left-header {
+                font-size: 26px;
+            }
+            .logo-desktop {
+                display: none;
+            }
+            .logo-mobile {
+                display: block;
+                margin-bottom: 1em;
+            }
+            .home-center-left-text {
+                margin-top: 0px;
+                margin-bottom: 2em;
+            }
+        }
     }
 }
