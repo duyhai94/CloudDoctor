@@ -1,10 +1,14 @@
 .page {
     background-color: var(--background-color);
+    .sticky {
+        position: fixed;
+        width: 100%;
+    }
 }
 
 .about {
-    border-top: 2px solid white;
     overflow: hidden;
+    padding-top: 100px;
 }
 
 //card
@@ -92,10 +96,13 @@
 }
 
 @media screen and (max-width: 425px) {
+    .about {
+        padding-top: 70px;
+    }
     .about-card {
         padding: 1em;
         .about-card-content {
-            height: 300px;
+            // height: 300px;
             padding: 1em;
             overflow: hidden;
             .content-text-header {
@@ -126,5 +133,10 @@
             display: block;
             order: 3;
         }
+    }
+    #view1,
+    #view2,
+    #view3 {
+        height: 300px;
     }
 }

@@ -1,13 +1,18 @@
 .page {
     background-color: var(--background-color);
+    .sticky {
+        position: fixed;
+        width: 100%;
+    }
 }
 
 .home-center {
+    // margin-top: 100px;
+    padding-top: 100px;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 2px solid white;
     .home-center-left {
         color: var(--color-light);
         .home-center-left-header {
@@ -39,12 +44,14 @@
         align-items: center;
         justify-content: center;
         height: 90vh;
+        padding-top: 80px;
         .home-center-right {
             order: 1;
             padding-bottom: 3em;
         }
         .home-center-left {
             order: 2;
+            padding-bottom: 2em;
             .home-center-left-header {
                 font-size: 26px;
             }
@@ -60,5 +67,10 @@
                 margin-bottom: 2em;
             }
         }
+    }
+    .button-getApp {
+        width: 146px;
+        height: 26px;
+        font-size: 12px;
     }
 }

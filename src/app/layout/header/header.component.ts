@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   select: boolean = true;
+  lang: boolean = true;
   constructor() { }
 
   ngOnInit(): void {
@@ -18,5 +19,8 @@ export class HeaderComponent implements OnInit {
   }
   closeMenu() {
     this.select = true;
+  }
+  changeLang(){
+    this.lang = !this.lang
   }
 }

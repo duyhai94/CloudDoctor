@@ -1,21 +1,23 @@
-<div class="page-navbar container">
-    <div class="page-navbar-logo">
-        <img src="assets/img/logo.svg" alt="">
-    </div>
-    <ul class="page-navbar-menu">
-        <li class="page-navbar-menu-list " routerLink="/home" routerLinkActive="list-active"> Home</li>
-        <li class="page-navbar-menu-list" routerLink="/about" routerLinkActive="list-active">About Us</li>
-        <li class="page-navbar-menu-list" routerLink="/our" routerLinkActive="list-active"> Our Products</li>
-        <li class="page-navbar-menu-list" routerLink="/contact" routerLinkActive="list-active">Contacts</li>
+<div class="container">
+    <div class="page-navbar">
+        <div class="page-navbar-logo">
+            <img src="assets/img/logo.svg" alt="">
+        </div>
+        <ul class="page-navbar-menu">
+            <li class="page-navbar-menu-list " routerLink="/home" routerLinkActive="list-active"> Home</li>
+            <li class="page-navbar-menu-list" routerLink="/about" routerLinkActive="list-active">About Us</li>
+            <li class="page-navbar-menu-list" routerLink="/our" routerLinkActive="list-active"> Our Products</li>
+            <li class="page-navbar-menu-list" routerLink="/contact" routerLinkActive="list-active">Contacts</li>
 
-    </ul>
-    <ul class="page-navbar-lang">
-        <li class="page-navbar-lang-item bg-purple">Vi</li>
-        <li class="page-navbar-lang-item">En</li>
-    </ul>
-    <div class="page-navebar-btn" (click)="showMenu()">
-        <img src="assets/img/menu/menu.svg" alt="">
+        </ul>
+        <ul class="page-navbar-lang" (click)="changeLang()">
+            <li class="page-navbar-lang-item bg-purple" [class.bg-purple]="lang">Vi</li>
+            <li class="page-navbar-lang-item" [class.bg-purple]="!lang">En</li>
+        </ul>
+        <div class="page-navebar-btn" (click)="showMenu()">
+            <img src="assets/img/menu/menu.svg" alt="">
 
+        </div>
     </div>
 </div>
 
