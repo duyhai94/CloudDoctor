@@ -6,14 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  select: boolean = false;
+  select: boolean = true;
   constructor() { }
 
   ngOnInit(): void {
   }
   showMenu(){
-    this.select = !this.select;
+    this.select = false;
     console.log(this.select);
     
+  }
+  closeMenu() {
+    this.select = true;
   }
 }

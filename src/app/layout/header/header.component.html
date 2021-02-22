@@ -3,10 +3,10 @@
         <img src="assets/img/logo.svg" alt="">
     </div>
     <ul class="page-navbar-menu">
-        <li class="page-navbar-menu-list" routerLink="/home"> Home</li>
-        <li class="page-navbar-menu-list" routerLink="/about">About Us</li>
-        <li class="page-navbar-menu-list" routerLink="/our">Our Products</li>
-        <li class="page-navbar-menu-list" routerLink="/contact">Contacts</li>
+        <li class="page-navbar-menu-list " routerLink="/home" routerLinkActive="list-active"> Home</li>
+        <li class="page-navbar-menu-list" routerLink="/about" routerLinkActive="list-active">About Us</li>
+        <li class="page-navbar-menu-list" routerLink="/our" routerLinkActive="list-active"> Our Products</li>
+        <li class="page-navbar-menu-list" routerLink="/contact" routerLinkActive="list-active">Contacts</li>
 
     </ul>
     <ul class="page-navbar-lang">
@@ -15,5 +15,29 @@
     </ul>
     <div class="page-navebar-btn" (click)="showMenu()">
         <img src="assets/img/menu/menu.svg" alt="">
+
     </div>
+</div>
+
+<div class="menu-nav" [class.hide]="select == true">
+    <div class="menu-nav-header">
+        <div class="menu-nav-header-logo">
+            <img src="assets/img/logo.svg" alt="">
+
+        </div>
+        <div class="menu-nav-header-btn" (click)="closeMenu()">
+            <img src="assets/img/cancel.svg" alt="">
+
+        </div>
+    </div>
+    <div class="menu-nav-list">
+        <ul>
+            <li class="menu-nav-list-item" routerLink="/home" (click)="closeMenu()"> Home</li>
+            <li class="menu-nav-list-item" routerLink="/about" (click)="closeMenu()">About Us</li>
+            <li class="menu-nav-list-item" routerLink="/our" (click)="closeMenu()">Our Products</li>
+            <li class="menu-nav-list-item" routerLink="/contact" (click)="closeMenu()">Contacts</li>
+        </ul>
+    </div>
+
+
 </div>
