@@ -33,9 +33,15 @@
     .page-footer {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         padding: 15px 0px;
-    }
-    ul {
-        padding-left: 1em;
+        .page-footer-left {
+            font-size: 16px !important;
+            width: 100%;
+            padding-left: 1.5em;
+        }
+        .page-footer-right {
+            padding-left: 1.5em;
+        }
     }
 }
