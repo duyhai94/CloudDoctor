@@ -23,7 +23,11 @@
             font-family: OpenSans-Regular;
             font-size: 16px;
             li {
-                margin-top: 10px;
+                margin: 10px 0px;
+                line-height: 1.5em;
+                img {
+                    padding-right: 1em;
+                }
             }
         }
     }

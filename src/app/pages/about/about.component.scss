@@ -12,6 +12,14 @@
     padding-top: 100px;
 }
 
+.section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 //card
 .about-card {
     border-radius: 30px;
@@ -25,9 +33,9 @@
         width: 100%;
     }
     .about-card-content {
+        padding: 1em;
         .content-text-header {
-            font-size: 50px;
-            font-weight: 500;
+            font-size: 45px;
         }
         .content-text-content {
             font-size: 18px;
@@ -36,7 +44,8 @@
             line-height: 1.5em;
             font-weight: 500;
             padding-top: 1em;
-            word-break: keep-all;
+            text-align: justify;
+            text-justify: inter-word;
         }
         .f-right {
             text-align: right;
@@ -44,13 +53,15 @@
             justify-content: flex-end;
         }
         .content-text-list {
+            padding: 1em;
             font-size: 18px;
             color: var(--color-text-content);
             font-family: OpenSans-Regular;
             line-height: 1.5em;
             font-weight: 500;
             padding-top: 1em;
-            word-break: keep-all;
+            text-align: justify;
+            text-justify: inter-word;
             .content-text-list-label {
                 color: black !important;
                 font-weight: bold;
