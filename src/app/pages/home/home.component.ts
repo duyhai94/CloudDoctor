@@ -13,7 +13,9 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    if(window.location.href.split('/')[3]==='') return this.route.navigateByUrl('/home');
+    if(window.location.href.split('/')[4]==='') return this.route.navigateByUrl('/home');
+    console.log(window.location.href);
+    
   }
 
 }
