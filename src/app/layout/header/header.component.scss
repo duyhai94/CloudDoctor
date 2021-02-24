@@ -85,6 +85,14 @@
     .page-navbar {
         height: 70px !important;
     }
+    .page-navbar {
+        border: none;
+        .page-navbar-logo {
+            img {
+                width: 70%;
+            }
+        }
+    }
 }
 
 .toggle-menu {
@@ -123,6 +131,20 @@
                 outline: none;
                 font-family: OpenSans-SemiBold;
                 font-weight: 500;
+            }
+            .menu-nav-active {
+                color: var(--color-link-active);
+                position: relative;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 3px;
+                    top: 50%;
+                    left: 100%;
+                    border-radius: 3px;
+                    background-color: var(--color-link-active);
+                }
             }
         }
     }

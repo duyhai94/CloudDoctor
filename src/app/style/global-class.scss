@@ -16,8 +16,8 @@
     color: var(--color-light);
     font-size: 21px;
     font-family: Quicksand;
+    font-weight: bold;
     text-align: center;
-    font-weight: 400;
     background-image: linear-gradient(to right, #5C3F91, #8FBEDC);
     height: 42px;
     width: 240px;
@@ -29,13 +29,20 @@
     outline: none;
     border: none;
     color: -webkit-linear-gradient(#5C3F91, #8FBEDC);
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
     text-align: center;
     background-color: var(--color-light);
     height: 42px;
     width: 240px;
     box-shadow: 20px 21px 19px rgba($color: #000000, $alpha: 0.13);
+}
+
+.btn-t-gradient {
+    background: linear-gradient(to right, #5C3F91 0%, #8FBEDC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
 }
 
 .text-gradient {
