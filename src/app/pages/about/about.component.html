@@ -1,92 +1,112 @@
 <div class="page">
-    <app-header class="sticky"></app-header>
-    <div class="container">
-        <!-- card 1 -->
-        <div class="section">
-            <div class="about-card">
-                <div class="about-card-content">
-                    <img src="assets/img/icon-cloud.png " alt=" ">
-                    <div class="about-card-content-header text-gradient">
-                        Ton's story, our vision
-                    </div>
-                    <div class="about-card-content-text" id="view1">
-                        <span> “Every day doctors all over the world capture only a small portion of the data they see, but only a little bit of this information is captured. Imagine how much we could do if we could make it easy for doctors to capture that data while they are talking
-                        with the patient, on a tablet and convert it into useful information. They could follow up with clients much more easily, make sure clients come back for follow up appointments and offer better care. We have to learn to use the
-                        power of information technology to improve care at the community level!”</span>
-                        <br>
-                        <span> CloudDoctor, founded by Dr. Ton van der Velden MD MPH, was built to help doctors in middle income countries capture and store the medical data they collect from their clients and convert it into information that can help them provide better care. Ton
-                        has worked in middle income countries for the last 30 years, helping to build strong medical systems, teaching and advising Ministries of Health, hospitals and small private clinics. Our vision is to be a leader in providing easy-to-use
-                        EMR systems and improve the health and wellbeing of people in low and middle income countries.</span>
-                    </div>
-                </div>
-                <div class="about-card-img">
-                    <img src="assets/img/about/image1.png " alt=" ">
-                </div>
-
-                <div class="view-more" (click)="btnExtended1()">
-                    <span *ngIf="show1 == false">View-more</span>
-                    <span *ngIf="show1 == true">Collapse</span>
-                </div>
-            </div>
+  <app-header class="sticky"></app-header>
+  <div class="container">
+    <!-- card 1 -->
+    <div class="section">
+      <div class="about-card">
+        <div class="about-card-content">
+          <img src="assets/img/icon-cloud.png " alt=" " />
+          <div class="about-card-content-header text-gradient">
+            {{ "ABOUT.ton" | translate }}
+          </div>
+          <div class="about-card-content-text" id="view1">
+            <span> {{ "ABOUT.everyday" | translate }}</span>
+            <br />
+            <span> {{ "ABOUT.founded" | translate }}</span>
+          </div>
         </div>
-        <!-- card 2 -->
-        <div class="section">
-            <div class="about-card">
-                <div class="f-botton">
-                    <img class="about-card-img" src="assets/img/about/image2.png " alt=" ">
-                </div>
-                <div class="about-card-content">
-                    <div class="f-right">
-                        <img src="assets/img/icon-cloud.png " alt=" ">
-
-                    </div>
-                    <div class="about-card-content-header text-gradient f-right">
-                        Why CloudDoctor was found? <br> Our mission </div>
-                    <div class="about-card-content-text " id="view2">
-                        <span> Cloud Doctor is built based on a deep understanding of the medical industry in Vietnam and other developing countries in general. We recognized that healthcare is changing and so are the demands and expectations of communities, patients, and their caregivers,
-                        all of which pose new challenges in terms of how services are funded, planned and delivered.</span>
-                        <br>
-                        <span>
-                            Therefore, we have a long-nurtured ambition to improve and revolutionize the medical system not just in Vietnam but also other developing countries. This is where Cloud Doctor was founded, carrying out a mission to provide client-focused health information
-                            services to enable doctors to provide high quality patient care.
-                        </span>
-                    </div>
-
-                </div>
-                <div class="view-more" (click)="btnExtended2()">
-                    <span *ngIf="show2 == false">View-more</span>
-                    <span *ngIf="show2 == true">Collapse</span>
-
-                </div>
-            </div>
+        <div class="about-card-img">
+          <img src="assets/img/about/image1.png " alt=" " />
         </div>
 
-        <!-- card 3 -->
-        <div class="section">
-            <div class=" about-card">
-                <div class="about-card-content">
-                    <img src="assets/img/icon-cloud.png " alt=" ">
-                    <div class="about-card-content-header text-gradient">
-                        Our values </div>
-
-                    <ul class="content-text-list" id="view3">
-                        <li> <span class="content-text-list-label">Integrity:</span> We act honestly, respectfully, and ethically in our work for the well-being of our clients</li>
-                        <li> <span class="content-text-list-label">Client focused:</span> We partner with and listen to our medical professional clients to provide high quality health information services. We also recognize that patients are clients. We provide
-                            patient-centered software and ensure patients are satisfied about our engagement with them. </li>
-                        <li> <span class="content-text-list-label">Innovation:</span> We are innovators who have the talent, skills, knowledge and experience to ensure excellence.</li>
-                        <li> <span class="content-text-list-label">System thinking:</span> We understand and work within the complexity of the healthcare system to reduce inefficiencies and improve care coordination.</li>
-                    </ul>
-                </div>
-                <div class="about-card-img">
-                    <img src="assets/img/about/image3.png " alt=" ">
-                </div>
-                <div class="view-more" (click)="btnExtended3()">
-
-                    <span *ngIf="show3 == false">View-more</span>
-                    <span *ngIf="show3 == true">Collapse</span>
-                </div>
-            </div>
+        <div class="view-more" (click)="btnExtended1()">
+          <span *ngIf="show1 == false">View-more</span>
+          <span *ngIf="show1 == true">Collapse</span>
         </div>
+      </div>
     </div>
-    <app-footer></app-footer>
+    <!-- card 2 -->
+    <div class="section">
+      <div class="about-card">
+        <div class="f-botton">
+          <img
+            class="about-card-img"
+            src="assets/img/about/image2.png "
+            alt=" "
+          />
+        </div>
+        <div class="about-card-content">
+          <div class="f-right">
+            <img src="assets/img/icon-cloud.png " alt=" " />
+          </div>
+          <div class="about-card-content-header text-gradient f-right">
+            {{ "ABOUT.Why-CloudDoctor" | translate }} <br />
+            {{ "ABOUT.Our-mission" | translate }}
+          </div>
+          <div class="about-card-content-text" id="view2">
+            <span> {{ "ABOUT.Cloud Doctor is built" | translate }}</span>
+            <br />
+            <span>
+              {{ "ABOUT.Therefore" | translate }}
+            </span>
+          </div>
+        </div>
+        <div class="view-more" (click)="btnExtended2()">
+          <span *ngIf="show2 == false">View-more</span>
+          <span *ngIf="show2 == true">Collapse</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 3 -->
+    <div class="section">
+      <div class="about-card">
+        <div class="about-card-content">
+          <img src="assets/img/icon-cloud.png " alt=" " />
+          <div class="about-card-content-header text-gradient">
+            {{ "ABOUT.Our values" | translate }}
+          </div>
+
+          <ul class="content-text-list" id="view3">
+            <li>
+              <span class="content-text-list-label">
+                {{ "ABOUT.Integrity" | translate }}:</span
+              >
+              We act
+              {{ "ABOUT.We act honestly" | translate }}
+            </li>
+            <li>
+              <span class="content-text-list-label">
+                {{ "ABOUT.Client focused" | translate }}:</span
+              >
+              We
+              {{ "ABOUT.We partner" | translate }}
+            </li>
+            <li>
+              <span class="content-text-list-label">
+                {{ "ABOUT.Innovation" | translate }}:</span
+              >
+              We are
+              {{ "ABOUT.We are innovators" | translate }}
+            </li>
+            <li>
+              <span class="content-text-list-label">
+                {{ "ABOUT.System thinking" | translate }}:</span
+              >
+              We
+              {{ "ABOUT.We understand" | translate }}
+            </li>
+          </ul>
+        </div>
+        <div class="about-card-img">
+          <img src="assets/img/about/image3.png " alt=" " />
+        </div>
+        <div class="view-more" (click)="btnExtended3()">
+          <span *ngIf="show3 == false">View-more</span>
+          <span *ngIf="show3 == true">Collapse</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
 </div>

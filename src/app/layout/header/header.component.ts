@@ -1,26 +1,35 @@
 import { Component, OnInit } from '@angular/core';
-
+import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent implements OnInit {
   select: boolean = true;
-  lang: boolean = true;
-  constructor() { }
+  typeLang = 'en';
 
-  ngOnInit(): void {
+  constructor(public translate: TranslateService) {
+    translate.addLangs(['en', 'vi']);
+    this.translate.use(this.typeLang);
   }
-  showMenu(){
+
+  ngOnInit(): void {}
+
+  showMenu() {
     this.select = false;
-    console.log(this.select);
-    
   }
   closeMenu() {
     this.select = true;
   }
-  changeLang(){
-    this.lang = !this.lang
+
+  changeLang() {
+    if (this.typeLang === 'en') {
+      this.translate.use('vi');
+      this.typeLang = 'vi';
+    } else {
+      this.translate.use('en');
+      this.typeLang = 'en';
+    }
   }
 }
