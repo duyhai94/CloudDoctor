@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
 @Component({
   selector: 'app-header',
@@ -9,13 +10,19 @@ export class HeaderComponent implements OnInit {
   select: boolean = true;
   typeLang = 'en';
 
-  constructor(public translate: TranslateService) {
+  constructor(public translate: TranslateService, private router: Router) {
     translate.addLangs(['en', 'vi']);
     this.translate.use(this.typeLang);
   }
 
   ngOnInit(): void {
     this.typeLang = localStorage.getItem('language');
+    this.router.events.subscribe((evt) => {
+      if (!(evt instanceof NavigationEnd)) {
+        return;
+      }
+      window.scrollTo(0, 0);
+    });
   }
 
   showMenu() {
