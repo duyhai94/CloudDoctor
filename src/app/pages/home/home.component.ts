@@ -1,21 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-
-  constructor(
-    private route:Router
-  ) { }
-
-  ngOnInit() {
-    if(window.location.href.split('/')[4]==='') return this.route.navigateByUrl('/home');
-    console.log(window.location.href);
-    
+  constructor(public translate: TranslateService, private route: Router) {
+    translate.addLangs(['en', 'vi']);
+    translate.setDefaultLang('en');
+    const type = localStorage.getItem('language');
+    translate.use(type);
   }
 
+  ngOnInit() {
+    const type = localStorage.getItem('language');
+    this.translate.use(type);
+    console.log('ok');
+    if (window.location.href.split('/')[4] === '') {
+      return this.route.navigateByUrl('/home');
+    }
+  }
 }

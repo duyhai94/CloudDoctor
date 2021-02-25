@@ -117,12 +117,12 @@
         height: 10vh;
     }
     .menu-nav-list {
-        list-style: none;
-        height: 90vh;
+        height: 75vh;
         display: flex;
         align-items: center;
         ul {
             list-style: none;
+            padding: 0;
             .menu-nav-list-item {
                 padding: 15px 0px;
                 font-size: 16px;
@@ -139,31 +139,35 @@
                     content: "";
                     position: absolute;
                     width: 100%;
-                    height: 3px;
+                    height: 0.5px;
                     top: 50%;
                     left: 120%;
                     border-radius: 3px;
-                    background-color: var(--color-link-active);
+                    background-color: #9FB9C8;
                 }
             }
         }
     }
-    .page-navbar-lang {
-        background-color: var(--color-light);
-        width: 130px;
-        height: 30px;
-        padding: 5px;
-        border-radius: 15px;
-        list-style: none;
-        margin: 0px;
-        display: flex;
-        cursor: pointer;
-        .page-navbar-lang-item {
-            width: 60px;
-            height: 20px;
-            text-align: center;
-            font-size: 14px;
-            border-radius: 11px;
+    .lang {
+        height: 15vh;
+        .menu-nav-lang {
+            background-color: var(--color-light);
+            width: 130px;
+            height: 30px;
+            padding: 5px;
+            border-radius: 15px;
+            list-style: none;
+            margin: 0px;
+            display: flex;
+            cursor: pointer;
+            // border: 0.5px solid #9FB9C8;
+            .menu-nav-lang-item {
+                width: 60px;
+                height: 20px;
+                text-align: center;
+                font-size: 14px;
+                border-radius: 11px;
+            }
         }
     }
 }

@@ -14,7 +14,9 @@ export class HeaderComponent implements OnInit {
     this.translate.use(this.typeLang);
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.typeLang = localStorage.getItem('language');
+  }
 
   showMenu() {
     this.select = false;
@@ -27,9 +29,11 @@ export class HeaderComponent implements OnInit {
     if (this.typeLang === 'en') {
       this.translate.use('vi');
       this.typeLang = 'vi';
+      localStorage.setItem('language', 'vi');
     } else {
       this.translate.use('en');
       this.typeLang = 'en';
+      localStorage.setItem('language', 'en');
     }
   }
 }
