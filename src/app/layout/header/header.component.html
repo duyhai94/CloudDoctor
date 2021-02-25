@@ -18,10 +18,9 @@
             </li>
         </ul>
         <ul class="page-navbar-lang" (click)="changeLang()">
-            <li class="page-navbar-lang-item bg-purple" [class.bg-purple]="typeLang == 'en'">
-                En
-            </li>
             <li class="page-navbar-lang-item" [class.bg-purple]="typeLang == 'vi'">Vi</li>
+
+            <li class="page-navbar-lang-item " [class.bg-purple]="typeLang == 'en'">En</li>
         </ul>
         <div class="page-navebar-btn" (click)="showMenu()">
             <img src="assets/img/menu/menu.svg" alt="" />

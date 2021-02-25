@@ -9,7 +9,6 @@ import { TranslateService } from '@ngx-translate/core';
 export class HeaderComponent implements OnInit {
   select: boolean = true;
   typeLang = 'en';
-
   constructor(public translate: TranslateService, private router: Router) {
     translate.addLangs(['en', 'vi']);
     this.translate.use(this.typeLang);

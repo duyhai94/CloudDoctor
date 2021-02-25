@@ -7,7 +7,9 @@
     },
     "FOOTER": {
         "EMR": "Electronic Medical Records",
-        "Tranfomrs": "are transforming healthcare system"
+        "Tranfomrs": "are transforming healthcare system",
+        "address": "4th floor,N03 - T7 building,Ngoai Giao Doan,Hanoi "
+
     },
     "HOME": {
         "TITLE": "CloudDoctor",
