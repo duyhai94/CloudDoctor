@@ -115,11 +115,13 @@
         display: flex;
         justify-content: space-between;
         height: 10vh;
+        border: 1px solid red;
     }
     .menu-nav-list {
         height: 75vh;
         display: flex;
         align-items: center;
+        border: 1px solid red;
         ul {
             list-style: none;
             padding: 0;
@@ -150,6 +152,7 @@
     }
     .lang {
         height: 15vh;
+        border: 1px solid red;
         .menu-nav-lang {
             background-color: var(--color-light);
             width: 130px;
