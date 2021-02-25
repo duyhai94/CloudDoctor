@@ -38,19 +38,29 @@
             <img src="assets/img/cancel.svg" alt="" />
         </div>
     </div>
+
     <div class="menu-nav-list">
         <ul>
             <li class="menu-nav-list-item" routerLink="/home" (click)="closeMenu()" routerLinkActive="menu-nav-active">
-                Home
+                {{ "HEADER.Home" | translate }}
+
             </li>
             <li class="menu-nav-list-item" routerLink="/about" (click)="closeMenu()" routerLinkActive="menu-nav-active">
-                About Us
+                {{ "HEADER.About Us" | translate }}
             </li>
             <li class="menu-nav-list-item" routerLink="/our" (click)="closeMenu()" routerLinkActive="menu-nav-active">
-                Our Products
+                {{ "HEADER.Our Products" | translate }}
             </li>
             <li class="menu-nav-list-item" routerLink="/contact" (click)="closeMenu()" routerLinkActive="menu-nav-active">
-                Contacts
+                {{ "HEADER.Contacts" | translate }}
+            </li>
+            <li>
+                <ul class="page-navbar-lang" (click)="changeLang()">
+                    <li class="page-navbar-lang-item bg-purple" [class.bg-purple]="typeLang == 'en'" (click)="closeMenu()">
+                        En
+                    </li>
+                    <li class="page-navbar-lang-item" [class.bg-purple]="typeLang == 'vi'" (click)="closeMenu()">Vi</li>
+                </ul>
             </li>
         </ul>
     </div>
