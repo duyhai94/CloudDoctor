@@ -71,10 +71,11 @@
     height: 100%;
     border-radius: 30px;
     background-color: #9FB9C8;
-    top: 10px;
-    left: 10px;
+    top: 3%;
+    left: 2%;
     position: absolute;
     z-index: -5;
+    transform: rotate(-2deg);
 }
 
 @media screen and (max-width: 769px) {
@@ -154,6 +155,7 @@
         .contact ::after {
             top: 5px;
             left: 5px;
+            transform: rotate(0deg);
         }
     }
 }

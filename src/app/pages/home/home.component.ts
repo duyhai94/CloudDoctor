@@ -17,10 +17,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     const type = localStorage.getItem('language');
-    if (type) {
-      localStorage.setItem('language', 'en');
-      this.translate.use('en');
-    }
     this.translate.use(type);
     if (window.location.href.split('/')[4] === '') {
       return this.route.navigateByUrl('/home');

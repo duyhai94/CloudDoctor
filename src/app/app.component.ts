@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  constructor() {
+    localStorage.setItem('language', 'en');
+  }
   title = 'CloudDoctor';
   select: number = 1;
   activeLink(id: number) {
