@@ -99,24 +99,14 @@
 }
 
 @media screen and (max-width: 425px) {
-    .page {
-        .page-contact {
-            width: 100%;
-            height: 100vh;
-            padding-top: 100px;
-            padding-bottom: 100px;
-            display: flex;
-            align-items: center;
-        }
-    }
     .section {
         height: 100vh;
-        // height: auto;
+        // height: auto !important;
         padding: 70px 16px 16px 16px;
         .contact {
             display: flex;
             flex-direction: column;
-            padding: 2.5em 1em;
+            padding: 0.5em 1em;
             border-radius: 30px;
             // height: 100%;
             // margin: 5em 0;
