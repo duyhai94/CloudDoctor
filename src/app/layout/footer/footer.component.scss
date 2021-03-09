@@ -54,3 +54,21 @@
         }
     }
 }
+
+@media screen and (max-width: 425px) {
+    .page-footer {
+        padding: 40px 0px;
+        .page-footer-left {
+            font-size: 14px !important;
+            .page-footer-left-logo {
+                width: 150px !important;
+            }
+        }
+        .page-footer-right {
+            font-size: 14px !important;
+            img {
+                width: 30px;
+            }
+        }
+    }
+}

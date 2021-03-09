@@ -21,7 +21,7 @@
         position: relative;
         background-color: #757FB7;
         border-radius: 30px;
-        padding: 3em;
+        padding: 5em 5em 5em 7em;
         z-index: -1;
         .contact-left {
             width: 50%;
@@ -42,12 +42,13 @@
                 padding: 0;
                 color: #ffffff;
                 font-weight: 500;
-                font-size: 21px;
+                font-size: 18px;
                 li {
                     display: flex;
-                    padding-top: 1em;
+                    padding-top: 0.5em;
                     img {
-                        margin-right: 1em;
+                        margin-right: 1.5em;
+                        width: 20px;
                     }
                 }
             }
@@ -80,7 +81,7 @@
 
 @media screen and (max-width: 769px) {
     .section {
-        height: 100% !important;
+        height: 100vh;
         .contact {
             display: flex;
             flex-direction: column;
@@ -109,22 +110,23 @@
         }
     }
     .section {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 0 1em;
+        height: 100vh;
         .contact {
             display: flex;
             flex-direction: column;
-            padding: 1em !important;
+            padding: 2.5em 1em;
             border-radius: 30px;
+            height: 70%;
             // margin: 5em 0;
             .contact-left {
                 width: 100%;
                 order: 2;
-                padding: 0;
+                padding: 1em;
                 .contact-left-logo {
                     padding-top: 1em;
                     img {
-                        width: 100px;
+                        width: 50px;
                         object-fit: cover;
                     }
                 }
@@ -132,7 +134,7 @@
                     font-size: 24px;
                 }
                 .contact-left-list {
-                    font-size: 16px !important;
+                    font-size: 14px !important;
                     img {
                         width: 7%;
                     }
@@ -149,7 +151,6 @@
             .contact-right {
                 width: 100%;
                 order: 1;
-                padding: 0;
             }
         }
         .contact ::after {
