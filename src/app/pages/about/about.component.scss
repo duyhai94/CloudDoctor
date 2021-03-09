@@ -19,10 +19,11 @@
     z-index: 0;
     width: 100%;
     margin: 100px 0;
+    height: auto;
     .about-card-img {
         width: 40%;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         img {
             width: 100%;
@@ -31,6 +32,9 @@
     .about-card-content {
         padding: 3em;
         width: 60%;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
         .about-card-content-header {
             font-size: 38px;
             font-weight: bold;
@@ -72,10 +76,12 @@
     .f-botton {
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        align-items: center;
         width: 40%;
         img {
             width: 100%;
+            // height: 100%;
+            object-fit: cover;
         }
     }
     .view-more {
@@ -85,7 +91,7 @@
         font-weight: 500;
         font-size: 14px;
         width: 100%;
-        padding-right: 1em;
+        padding: 1em 2em 0.5em 0;
     }
 }
 
@@ -203,5 +209,7 @@
     #view2,
     #view3 {
         height: 300px;
+        // overflow: hidden;
+        // padding: 0px 0px 30px 0px;
     }
 }
