@@ -110,14 +110,15 @@
         }
     }
     .section {
-        padding: 0 1em;
         height: 100vh;
+        // height: auto;
+        padding: 70px 16px 16px 16px;
         .contact {
             display: flex;
             flex-direction: column;
             padding: 2.5em 1em;
             border-radius: 30px;
-            height: 70%;
+            // height: 100%;
             // margin: 5em 0;
             .contact-left {
                 width: 100%;

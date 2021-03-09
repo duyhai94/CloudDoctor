@@ -20,7 +20,7 @@
     },
     "ABOUT": {
         "ton": "Câu chuyện của Ton, tầm nhìn của chúng tôi",
-        "everyday": "Mỗi ngày các bác sĩ trên khắp thế giới chỉ nắm bắt được một phần nhỏ dữ liệu họ nhìn thấy, nhưng chỉ một ít thông tin này được lưu trữ. Hãy tưởng tượng xem chúng ta có thể làm được bao nhiêu nếu chúng ta có thể giúp các bác sĩ dễ dàng nắm bắt dữ liệu đó khi họ đang nói chuyện với bệnh nhân, trên máy tính bảng và chuyển nó thành thông tin hữu ích. Họ có thể theo dõi khách hàng dễ dàng hơn, đảm bảo khách hàng quay lại tái khám và cung cấp dịch vụ chăm sóc tốt hơn. Chúng ta phải học cách sử dụng sức mạnh của công nghệ thông tin để cải thiện dịch vụ chăm sóc ở cấp cộng đồng! ",
+        "everyday": "“Mỗi ngày, có rất nhiều thông tin được thu thập bởi các bác sĩ và bệnh viện trên toàn thế giới, nhưng chỉ một số ít trong đó được lưu trữ lại. Hãy tưởng tượng xem chúng ta có thể làm được những gì nếu chúng ta giúp các bác sĩ dễ dàng lưu trữ và phân tích mọi thông tin của bệnh nhân, chỉ bằng một chiếc máy tính bảng. Họ có thể theo dõi bệnh nhân thuận tiện hơn, từ đó nâng cao chất lượng dịch vụ chăm sóc và đảm bảo sự hài lòng của bệnh nhân. Đã đến lúc chúng ta học cách ứng dụng sức mạnh của công nghệ thông tin để cải thiện nền y tế cho cộng đồng, vì cộng đồng!”",
         "founded": "CloudDoctor, được thành lập bởi Tiến sĩ Ton van der Velden MD MPH, được xây dựng để giúp các bác sĩ ở các quốc gia có thu nhập trung bình nắm bắt và lưu trữ dữ liệu y tế mà họ thu thập từ khách hàng và chuyển đổi nó thành thông tin có thể giúp họ cung cấp dịch vụ chăm sóc tốt hơn. Ton đã làm việc ở các quốc gia có thu nhập trung bình trong 30 năm qua, giúp xây dựng hệ thống y tế vững mạnh, giảng dạy và tư vấn cho Bộ Y tế, các bệnh viện và phòng khám tư nhân nhỏ. Tầm nhìn của chúng tôi là đi đầu trong việc cung cấp các hệ thống EMR dễ sử dụng và cải thiện sức khỏe và phúc lợi của người dân ở các quốc gia có thu nhập thấp và trung bình.",
         "Why-CloudDoctor": "Tại sao CloudDoctor được tạo ra?",
         "Our-mission": "Nhiệm vụ của chúng tôi",
@@ -38,9 +38,10 @@
     },
     "OUR": {
         "What is our product?": "Sản phẩm của chúng tôi là gì?",
-        "Replacing": "Thay thế hồ sơ y tế trên giấy truyền thống, CloudDoctor là một Hồ sơ y tế điện tử giúp bạn nắm bắt và lưu trữ tất cả thông tin y tế liên quan như lịch sử bệnh nhân, kết quả khám, chẩn đoán và kế hoạch của bạn. CloudDoctor bao gồm nhắn tin an toàn và hội nghị truyền hình. Tất cả điều này chỉ với một cú chạm ngón tay của bạn. Và sau đó CloudDoctor đưa ra các đề xuất chăm sóc để bạn cung cấp dịch vụ chăm sóc tốt hơn cho bệnh nhân của mình!",
+        "Replacing": "Thay thế hồ sơ y tế giấy truyền thống, CloudDoctor là hệ thống hồ sơ y tế điện tử giúp bạn thu thập và lưu trữ tất cả thông tin y tế liên quan như bệnh sử của bệnh nhân, kết quả khám, chẩn đoán và phác đồ điều trị, chỉ bằng một cú chạm tay. Đặc biệt, CloudDoctor đưa ra các đề xuất chăm sóc để bác sĩ và gia đình bệnh nhân có thể phối hợp theo dõi cũng như tối ưu hóa quá trình tự phục hồi của bệnh nhân.",
+
         "Why choose us?": "Tại sao chọn chúng tôi?",
-        "Applying": "Ứng dụng khoa học công nghệ tiên tiến, Cloud Doctor có khả năng lưu trữ lượng lớn dữ liệu ở mức độ bảo mật cao và liên kết các phòng khám, bệnh viện khác nhau trong hệ thống, qua đó có thể bảo quản và chuyển giao hồ sơ bệnh án giữa các cơ sở y tế. Hơn nữa, Cloud Doctor hỗ trợ bệnh nhân và gia đình của họ tự chăm sóc tại nhà bằng cách cung cấp lời khuyên và kiến thức về sức khỏe có thể truy cập trực tuyến."
+        "Applying": "Ứng dụng khoa học công nghệ tiên tiến, Cloud Doctor có khả năng lưu trữ một lượng lớn dữ liệu ở mức độ bảo mật cao và liên kết các phòng khám, bệnh viện khác nhau trong hệ thống, qua đó có thể bảo quản và chuyển giao hồ sơ bệnh án của bệnh nhân giữa các cơ sở y tế. Hơn nữa, Cloud Doctor cũng hỗ trợ bệnh nhân và gia đình của họ tự chăm sóc tại nhà bằng cách cung cấp lời khuyên và kiến ​​thức về sức khỏe được cập nhật trực tuyến."
     },
     "CONTACT": {
         "contact-us": "Liên hệ với chúng tôi",
