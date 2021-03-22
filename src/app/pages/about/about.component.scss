@@ -161,13 +161,14 @@
     }
     .about-card {
         padding: 1em;
-        margin: 40px 0px 70px 0px;
+        margin: 60px 0px 80px 0px;
         .about-card-content {
             // height: 300px;
             padding: 1em;
             overflow: hidden;
             .about-card-content-header {
                 font-size: 16px;
+                padding: 10px 0px;
             }
             img {
                 height: 40px;
@@ -199,11 +200,17 @@
             left: -8px;
             // transform: rotate(0deg);
         }
+        .f-botton {
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
     }
     #view1,
     #view2,
     #view3 {
-        height: 300px;
+        height: 220px;
         // overflow: hidden;
         // padding: 0px 0px 30px 0px;
     }
