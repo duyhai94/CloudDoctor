@@ -32,22 +32,19 @@
     .about-card-content {
         padding: 3em;
         width: 60%;
-        // display: flex;
-        // align-items: center;
-        // justify-content: center;
         .about-card-content-header {
-            font-size: 38px;
+            font-size: 37px;
             font-weight: bold;
+            font-family: "OpenSans-SemiBold";
         }
         .about-card-content-text {
+            padding-top: 1em;
+            line-height: 1.5em;
             font-size: 18px;
             color: #808080;
-            font-family: OpenSans-Regular;
-            line-height: 1.5em;
-            font-weight: 500;
-            padding-top: 1em;
             text-align: justify;
             text-justify: inter-word;
+            font-family: "OpenSans-Regular";
         }
         .f-right {
             text-align: right;
@@ -57,10 +54,8 @@
         .content-text-list {
             padding: 1em;
             font-size: 18px;
-            color: var(--color-text-content);
-            font-family: OpenSans-Regular;
+            color: #808080;
             line-height: 1.5em;
-            font-weight: 500;
             padding-top: 1em;
             text-align: justify;
             text-justify: inter-word;

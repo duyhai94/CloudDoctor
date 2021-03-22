@@ -6,7 +6,7 @@
     align-items: center;
     backdrop-filter: blur(20px);
     border-radius: 0px 0px 30px 30px;
-    font-family: OpenSans-SemiBold;
+    font-family: "OpenSans-SemiBold";
     padding: 0 1em;
     cursor: pointer;
     position: relative;
@@ -148,7 +148,7 @@
                 color: var(--color-list-menu);
                 border: none;
                 outline: none;
-                font-family: OpenSans-SemiBold;
+                font-family: "OpenSans-SemiBold";
                 font-weight: 500;
             }
             .menu-nav-active {

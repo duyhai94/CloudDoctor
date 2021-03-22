@@ -15,7 +15,7 @@
     border: none;
     color: var(--color-light);
     font-size: 18px;
-    font-family: Quicksand;
+    font-family: "Quicksand";
     font-weight: bold;
     text-align: center;
     background-image: linear-gradient(to right, #5C3F91, #8FBEDC);
@@ -42,14 +42,14 @@
     background: linear-gradient(to right, #5C3F91 0%, #8FBEDC 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Poppins", sans-serif;
+    // font-family: "Montserrat-SemiBold", sans-serif;
 }
 
 .text-gradient {
     background: linear-gradient(to right, #5C3F91 0%, #8FBEDC 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "Poppins", sans-serif;
+    // font-family: "Montserrat-SemiBold", sans-serif;
     font-weight: bold;
 }
 
