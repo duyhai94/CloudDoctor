@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35.155" height="24.657" viewBox="0 0 35.155 24.657">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8fbedc"/>
+      <stop offset="1" stop-color="#5c3f91"/>
+    </linearGradient>
+    <filter id="Exclusion_12" x="0" y="0" width="35.155" height="24.657" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.361"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Exclusion_12)">
+    <path id="Exclusion_12-2" data-name="Exclusion 12" d="M24.318,21.657H7.214A1.158,1.158,0,0,1,6.86,21.6a7.791,7.791,0,1,1,6.559-2.352h9.9a6.524,6.524,0,0,0,4.753-2.041,6.143,6.143,0,0,0,1.663-4.649,6.224,6.224,0,0,0-4.771-5.669A8.629,8.629,0,0,1,22.3,15.113a1.143,1.143,0,0,1-.768.295,1.165,1.165,0,0,1-.8-.313,1.192,1.192,0,0,1-.208-.226l-1.561-2.233a1.2,1.2,0,1,1,1.961-1.371l.691.989a6.269,6.269,0,0,0-7.079-9.538l.867,1.24a1.139,1.139,0,1,1-1.867,1.305L11.923,2.954a1.066,1.066,0,0,1-.107-.2l-.006-.007a1.106,1.106,0,0,1,.345-1.6A8.681,8.681,0,0,1,23.511,3.608c.16.222.313.459.456.705a8.679,8.679,0,0,1,.351,17.3v.042ZM7.789,8.489a5.38,5.38,0,1,0,5.38,5.38A5.386,5.386,0,0,0,7.789,8.489Z" transform="translate(0.5 0.5)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

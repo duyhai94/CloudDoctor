@@ -27,36 +27,6 @@ export class AboutComponent implements OnInit {
   windowWidth() {
     this.screenWidth = window.innerWidth;
   }
-  viewMore(id: number) {
-    const ID = id;
-    console.log(ID);
-    const view1 = document.getElementById('view1');
-    const view2 = document.getElementById('view2');
-    const view3 = document.getElementById('view3');
-    this.show1 == !this.show1;
-    if (this.show1 != false && ID == 1) {
-      view1.style.height = 'auto';
-    } else {
-      view1.style.height = '300px';
-    }
-
-    // switch (ID) {
-    //   case 1:
-    //       if(this.show1 != false) {
-    //         view1.style.height = "auto";
-    //       } else {
-    //         view1.style.height = "300px";
-    //       }
-    //   break;
-    //   case 2:
-    //     view2.style.height = "auto";
-    //   break;
-    //   case 3:
-    //     view3.style.height = "auto";
-    //   break;
-
-    // }
-  }
 
   btnExtended1() {
     if (this.screenWidth > 450) return;
@@ -65,7 +35,7 @@ export class AboutComponent implements OnInit {
     if (this.show1 != false) {
       readmore.style.height = 'auto';
     } else {
-      readmore.style.height = '300px';
+      readmore.style.height = '220px';
     }
   }
   btnExtended2() {
@@ -75,7 +45,7 @@ export class AboutComponent implements OnInit {
     if (this.show2 != false) {
       readmore.style.height = 'auto';
     } else {
-      readmore.style.height = '300px';
+      readmore.style.height = '220px';
     }
   }
   btnExtended3() {
@@ -85,7 +55,7 @@ export class AboutComponent implements OnInit {
     if (this.show3 != false) {
       readmore.style.height = 'auto';
     } else {
-      readmore.style.height = '300px';
+      readmore.style.height = '220px';
     }
   }
 }

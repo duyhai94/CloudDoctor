@@ -19,7 +19,6 @@
     z-index: 0;
     width: 100%;
     margin: 100px 0;
-    height: auto;
     .about-card-img {
         width: 40%;
         display: flex;
@@ -64,7 +63,8 @@
                 font-weight: bold;
             }
             li {
-                padding-top: 1em;
+                padding-bottom: 10px;
+                overflow: hidden;
             }
         }
     }
@@ -181,6 +181,8 @@
             }
             .content-text-list {
                 font-size: 14px;
+                margin: 0;
+                padding: 0;
             }
         }
         .about-card-img {
