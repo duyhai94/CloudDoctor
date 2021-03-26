@@ -12,14 +12,16 @@
 
     },
     "HOME": {
-        "TITLE": "CloudDoctor",
-        "Tranfomrs-home": "Transform healthcare",
+        "TITLE": "CloudDoctor EHR",
+        "Tranfomrs-home": "Electronic Health Record",
         "saving": "Saving your time, saving your money",
         "more": " more than an app",
         "get": "Get the app"
     },
     "ABOUT": {
-        "ton": "Ton's story,  our vision",
+        "ton1": "Ton's story,",
+        "ton2": "our vision",
+
         "everyday": "“Every day doctors all over the world capture only a small portion of the data they see, but only a little bit of this information is captured. Imagine how much we could do if we could make it easy for doctors to capture that data while they are talking with the patient, on a tablet and convert it into useful information. They could follow up with clients much more easily, make sure clients come back for follow up appointments and offer better care. We have to learn to use the power of information technology to improve care at the community level!”",
         "founded": "CloudDoctor, founded by Dr. Ton van der Velden MD MPH, was built to help doctors in middle income countries capture and store the medical data they collect from their clients and convert it into information that can help them provide better care. Ton has worked in middle income countries for the last 30 years, helping to build strong medical systems, teaching and advising Ministries of Health, hospitals and small private clinics. Our vision is to be a leader in providing easy-to-use EMR systems and improve the health and wellbeing of people in low and middle income countries.",
         "Why-CloudDoctor": "Why CloudDoctor was found?",
