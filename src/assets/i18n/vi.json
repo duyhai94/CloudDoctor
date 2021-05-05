@@ -16,7 +16,9 @@
         "Tranfomrs-home": "Bệnh án điện tử",
         "saving": "Tiết kiệm chi phí và thời gian của bạn",
         "more": " hơn cả một ứng dụng",
-        "get": "Tải ứng dụng"
+        "get": "Tải ứng dụng",
+        "bg1": "assets/img/vn/home.png"
+
     },
     "ABOUT": {
         "ton1": "Câu chuyện của Ton",
@@ -36,14 +38,21 @@
         "We act honestly": "Chúng tôi hành động trung thực, tôn trọng và có đạo đức trong công việc vì lợi ích của khách hàng",
         "We partner": "Chúng tôi hợp tác và lắng nghe khách hàng là chuyên gia y tế của mình để cung cấp các dịch vụ thông tin y tế chất lượng cao. Chúng tôi cũng nhận ra rằng bệnh nhân là khách hàng. Chúng tôi cung cấp phần mềm lấy bệnh nhân làm trung tâm và đảm bảo bệnh nhân hài lòng về sự tham gia của chúng tôi với họ.",
         "We are innovators": "Chúng tôi là những nhà đổi mới có tài năng, kỹ năng, kiến thức và kinh nghiệm để đảm bảo sự xuất sắc.",
-        "We understand": "Chúng tôi hiểu và làm việc trong phạm vi phức tạp của hệ thống chăm sóc sức khỏe để giảm thiểu sự kém hiệu quả và cải thiện sự phối hợp chăm sóc."
+        "We understand": "Chúng tôi hiểu và làm việc trong phạm vi phức tạp của hệ thống chăm sóc sức khỏe để giảm thiểu sự kém hiệu quả và cải thiện sự phối hợp chăm sóc.",
+        "img our value": "assets/img/vn/about-our-value.png"
+
     },
     "OUR": {
         "What is our product?": "Sản phẩm của chúng tôi là gì?",
         "Replacing": "Thay thế hồ sơ y tế giấy truyền thống, CloudDoctor là hệ thống hồ sơ y tế điện tử giúp bạn thu thập và lưu trữ tất cả thông tin y tế liên quan như bệnh sử của bệnh nhân, kết quả khám, chẩn đoán và phác đồ điều trị, chỉ bằng một cú chạm tay. Đặc biệt, CloudDoctor đưa ra các đề xuất chăm sóc để bác sĩ và gia đình bệnh nhân có thể phối hợp theo dõi cũng như tối ưu hóa quá trình tự phục hồi của bệnh nhân.",
-
         "Why choose us?": "Tại sao chọn chúng tôi?",
-        "Applying": "Ứng dụng khoa học công nghệ tiên tiến, Cloud Doctor có khả năng lưu trữ một lượng lớn dữ liệu ở mức độ bảo mật cao và liên kết các phòng khám, bệnh viện khác nhau trong hệ thống, qua đó có thể bảo quản và chuyển giao hồ sơ bệnh án của bệnh nhân giữa các cơ sở y tế. Hơn nữa, Cloud Doctor cũng hỗ trợ bệnh nhân và gia đình của họ tự chăm sóc tại nhà bằng cách cung cấp lời khuyên và kiến ​​thức về sức khỏe được cập nhật trực tuyến."
+        "Applying": "Ứng dụng khoa học công nghệ tiên tiến, Cloud Doctor có khả năng lưu trữ một lượng lớn dữ liệu ở mức độ bảo mật cao và liên kết các phòng khám, bệnh viện khác nhau trong hệ thống, qua đó có thể bảo quản và chuyển giao hồ sơ bệnh án của bệnh nhân giữa các cơ sở y tế. Hơn nữa, Cloud Doctor cũng hỗ trợ bệnh nhân và gia đình của họ tự chăm sóc tại nhà bằng cách cung cấp lời khuyên và kiến ​​thức về sức khỏe được cập nhật trực tuyến.",
+
+        "banner web": "assets/img/vn/our-web.png",
+        "banner mobi": "assets/img/vn/our-mobile.png",
+
+        "img product": "assets/img/vn/our-product.png",
+        "img why": "assets/img/vn/our-why.png"
     },
     "CONTACT": {
         "contact-us": "Liên hệ với chúng tôi",

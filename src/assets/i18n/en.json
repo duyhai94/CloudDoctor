@@ -16,7 +16,8 @@
         "Tranfomrs-home": "Electronic Health Record",
         "saving": "Saving your time, saving your money",
         "more": " more than an app",
-        "get": "Get the app"
+        "get": "Get the app",
+        "bg1": "assets/img/en/home.png"
     },
     "ABOUT": {
         "ton1": "Ton's story",
@@ -36,13 +37,21 @@
         "We act honestly": "We act honestly, respectfully, and ethically in our work for the well-being of our clients",
         "We partner": "We partner with and listen to our medical professional clients to provide high quality health information services. We also recognize that patients are clients. We provide patient-centered software and ensure patients are satisfied about our engagement with them.",
         "We are innovators": "We are innovators who have the talent, skills, knowledge and experience to ensure excellence",
-        "We understand": " We understand and work within the complexity of the healthcare system to reduce inefficiencies and improve care coordination."
+        "We understand": " We understand and work within the complexity of the healthcare system to reduce inefficiencies and improve care coordination.",
+        "img our value": "assets/img/en/about-our-value.png"
     },
     "OUR": {
         "What is our product?": "What is our product?",
         "Replacing": "Replacing the traditional paper based medical record, CloudDoctor is an Electronic Medical Record that helps you capture and store all relevant medical information such as the patient’s history, the results of your examination, the diagnosis, and your plan. CloudDoctor includes secure messaging and video conferencing. All this with just a touch of your finger. And then CloudDoctor offers suggestions for care so that you provide better care for your patient!",
         "Why choose us?": "Why choose us?",
-        "Applying": "Applying advanced science and technology, Cloud Doctor is capable of storing a great amount of data at the high level of security and linking different clinics and hospitals in the system, by which patient medical records can be preserved and transferred between medical establishments. Furthermore, Cloud Doctor supports patients and their family with their self care at home by providing health advice and knowledge that can be accessed online."
+        "Applying": "Applying advanced science and technology, Cloud Doctor is capable of storing a great amount of data at the high level of security and linking different clinics and hospitals in the system, by which patient medical records can be preserved and transferred between medical establishments. Furthermore, Cloud Doctor supports patients and their family with their self care at home by providing health advice and knowledge that can be accessed online.",
+
+        "banner web": "assets/img/en/our-web.jpg",
+        "banner mobi": "assets/img/en/our-mobile.jpg",
+
+        "img product": "assets/img/en/our-product.png",
+        "img why": "assets/img/en/our-why.png"
+
     },
     "CONTACT": {
         "contact-us": "Contact us",
